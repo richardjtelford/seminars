@@ -1,0 +1,129 @@
+---
+title: "R and RStudio"
+subtitle: Basics for Beginners
+author: Richard J Telford <_richard.telford@uib.no_>
+institute: Department of Biological Sciences, University of Bergen
+date: today
+date-format: "D MMMM YYYY"
+format: 
+  revealjs:
+    title-slide-attributes:
+      data-background-image: figs/qr-code-R-RStudio.svg
+      data-background-size: 25%
+      data-background-position: 98% 98%
+editor: visual
+execute:
+  echo: false
+---
+
+
+
+```{r}
+#| label: qr-code
+# generate qr code
+library(qrcode)
+qr_code("http://richardjtelford.github.io/seminars/R_RStudio.html") |> 
+  generate_svg(file = "figs/qr-code-R-RStudio.svg")
+```
+
+
+## Why `r fontawesome::fa(name = "r-project", fill = "steelblue")`?
+
+-   free
+-   open source
+-   large and friendly user community
+-   many statistical methods implemented
+-   makes publication ready figures
+-   reproducible research
+-   code is easy to share and publish
+
+## Why RStudio?
+
+Integrated Development Environment designed for R
+
+(Almost) Never need to use R GUI directly 
+
+- code completion
+- syntax highlighting
+- bracket matching
+- syntax error detection
+
+Positron is an alternative IDE
+
+## Navigating RStudio
+
+```{r}
+#| label: rstudio
+#| out.width: 100%
+#| echo: false
+#| fig-alt: Screenshot of RStudio. Top left is the panel for scripts, 
+#|   bottom left is the console, 
+#|   top right shows which objects are currently in memory, 
+#|   and bottom right shows the files, plots, and help tabs.  
+knitr::include_graphics("figs/RStudiogui.png")
+```
+
+
+## #1 Top tip for using RStudio
+
+Use RStudio Projects
+
+File >> New Project... >> New Directory >> New Project
+
+- Manages working directory
+- Works with Git
+- Remembers what you were doing last time
+
+## Resourses
+
+[Enough R to write a thesis](https://biostats-r.github.io/biostats/)
+
+```{r}
+knitr::include_url("https://biostats-r.github.io/biostats/")
+```
+
+-   R books
+-   Interactive tutorials & apps
+
+## Books
+
+
+:::: {.columns}
+::: {.column}
+#### [R for Data Science](https://r4ds.hadley.nz/)
+
+```{r}
+#| label: r4ds-book
+#| echo: false
+#| fig-alt: Front cover of R for Data Science showing a Kakapo Parrot
+#| out-width: 3in
+knitr::include_graphics("figs/r4ds-cover.jpg")
+```
+
+:::
+::: {.column}
+#### [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
+
+```{r}
+#| label: ggplot-book
+#| echo: false
+#| out-width: 3in
+#| fig-alt: "Yellow/orange front cover of gplot2: Elegant Graphics for Data Analysis" 
+knitr::include_graphics("figs/ggplotbook-cover.jpg")
+```
+
+:::
+::::
+
+## Rklubben
+
+“The first rule about R club is you talk about R.”
+
+-   Come and help fix someone else's R problems
+-   And get help yourself
+
+Fridays 1400-1600 in Tunet (4^th^ floor Bio A)
+
+
+
+

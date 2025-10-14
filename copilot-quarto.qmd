@@ -1,0 +1,107 @@
+---
+title: "Copilot and Quarto"
+subtitle: in RStudio
+author: Richard J Telford <_richard.telford@uib.no_>
+institute: Department of Biological Sciences, University of Bergen
+date: today
+date-format: "D MMMM YYYY"
+format: 
+  revealjs:
+    title-slide-attributes:
+      data-background-image: figs/qr-code-copilot-quarto.svg
+      data-background-size: 25%
+      data-background-position: 98% 98%
+editor: visual
+execute:
+  echo: false
+---
+
+
+
+```{r}
+#| label: qr-code
+# generate qr code
+library(qrcode)
+qr_code("http://richardjtelford.github.io/seminars/copilot-quarto.html") |> 
+  generate_svg(file = "figs/qr-code-copilot-quarto.svg")
+```
+
+## CoPilot
+
+-  Code completion within RStudio
+- Write a comment, coPilot writes the code
+- Context aware - uses the packages you have loaded
+
+Can make coding faster (but code can be bad!)
+
+## Setting up CoPilot
+
+1) Make a github account on [github.com](github.com)
+2) Sign up for Copilot (free with an an educational license [github.com/education](https://github.com/education/))
+3) In RStudio, go to Tools -> Global Options -> Copilot -> Enable copilot
+4) Press <kbd>tab</kbd> to accept CoPilot suggestions
+5) Use <kbd>ctrl</kbd>+<kbd>space</kbd> to see RStudio autocomplete suggestions
+
+## Communicate results with quarto {.scrollable}
+
+::: columns
+```{r}
+#| label: quarto-workflow
+#| eval: true
+#| fig-alt:  Schematic diagram showing the copy-paste workflow using word and the reproducible quarto workflow
+knitr::include_graphics("figs/quarto_workflow.png")
+```
+:::
+
+::: columns
+::: {.column width="50%"}
+### Past
+
+- text in Word, code in R
+- copy figures & tables, paste into Word
+- find mistakes - go to step 1.
+:::
+
+::: {.column width="50%"}
+### Future
+
+- Code and text interwoven
+- Reproducible, dynamic documents
+:::
+:::
+
+## Quarto for
+
+Reproducible 
+
+- presentations
+- manuscripts
+- reports 
+- theses
+- websites
+- books
+
+Using R, python, Julia or many other languages.
+
+## Demonstration time
+
+- YAML
+- Formatting text
+- source and visual editing modes
+- Code blocks
+
+## Resources
+
+#### [Enough markdown to write a thesis](https://biostats-r.github.io/biostats/quarto/)
+
+```{r}
+#| label: enough-r-to-write-a-thesis
+knitr::include_url("https://biostats-r.github.io/biostats/quarto/")
+```
+
+Tutorial focuses on scientific documents
+
+---
+#### [Quarto.org](quarto.org)
+
+Everything quarto
