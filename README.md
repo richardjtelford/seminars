@@ -2,4 +2,4 @@
 
 A home for presentations
 
-[Link to the website](richardjtelford.github.io/seminars/)
+[Link to the website](https::/richardjtelford.github.io/seminars/)
