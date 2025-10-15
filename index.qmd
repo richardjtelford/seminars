@@ -9,6 +9,7 @@ A home for presentations and seminars I've given that don't have another place t
 
 ## Fakultet for naturvitenskap og teknologi sin læringsdag for ansatte i tekniske stillinger
 
+University of Bergen\
 Wednesday 15^th^ October 2025
 
 - [R and RStudio for beginners](R_RStudio.html)
