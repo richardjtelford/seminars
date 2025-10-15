@@ -89,5 +89,40 @@
     "title": "Copilot and Quarto",
     "section": "Demonstration time",
     "text": "Demonstration time\n\nYAML\nFormatting text\nsource and visual editing modes\nCode blocks"
+  },
+  {
+    "objectID": "R_RStudio.html#beginning-r",
+    "href": "R_RStudio.html#beginning-r",
+    "title": "R and RStudio",
+    "section": "Beginning R",
+    "text": "Beginning R\nMake an object and use &lt;- to assign. Type its name to see it\n\nx &lt;- 7\nx\n\n[1] 7\n\n\nFor large objects, use View() or click on the object in the environment tab, or dplyr::glimpse for a condensed view.\n\ndplyr::glimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species     &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Ad…\n$ island      &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgersen, Tor…\n$ bill_len    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, 42.0, …\n$ bill_dep    &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, 20.2, …\n$ flipper_len &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186, 180,…\n$ body_mass   &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, 4250, …\n$ sex         &lt;fct&gt; male, female, female, NA, female, male, female, male, NA, …\n$ year        &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
+  },
+  {
+    "objectID": "R_RStudio.html#functions",
+    "href": "R_RStudio.html#functions",
+    "title": "R and RStudio",
+    "section": "Functions",
+    "text": "Functions\nEverything that does something is a function\n\nv &lt;- c(1, 5, 7, 2, NA) # NA is a missing value\nmean(v, na.rm = TRUE) # arguments separated by a comma\n\n[1] 3.75\n\n\nAlso infix functions e.g. + and %in%\n\n6 * 7\n\n[1] 42"
+  },
+  {
+    "objectID": "R_RStudio.html#getting-help",
+    "href": "R_RStudio.html#getting-help",
+    "title": "R and RStudio",
+    "section": "Getting help",
+    "text": "Getting help\n?mean to get help on the function mean()\n??correlation to get help on the topic correlation\nCan also search in the RStudio help tab."
+  },
+  {
+    "objectID": "R_RStudio.html#packages",
+    "href": "R_RStudio.html#packages",
+    "title": "R and RStudio",
+    "section": "Packages",
+    "text": "Packages\nYou can do a lot with base R, but the real power comes when you use extra packages with extra functions.\nInstall a package from CRAN with\n\ninstall.packages(\"tidyverse\") # don't leave this in your code\n\nload a package with library()\n\nlibrary(\"tidyverse\")\n\nNow tidyverse functions are available.\nMany packages are on CRAN, some are on BioConductor or only available to install from GitHub"
+  },
+  {
+    "objectID": "R_RStudio.html#tidyverse-vs-base-r",
+    "href": "R_RStudio.html#tidyverse-vs-base-r",
+    "title": "R and RStudio",
+    "section": "Tidyverse vs Base R",
+    "text": "Tidyverse vs Base R\nYou can do everything in base R.\nMany things are easier in tidyverse - a collection of packages with consistent function\n\ndplyr & tidyr for manipulating data frames\nggplot2 for beautiful figures\npurrr for running code repeatedly\nlubridate for manipulating dates\n\nAnd many more"
   }
 ]

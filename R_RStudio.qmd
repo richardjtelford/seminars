@@ -74,6 +74,103 @@ File >> New Project... >> New Directory >> New Project
 - Works with Git
 - Remembers what you were doing last time
 
+## Beginning R
+
+Make an object and use `<-` to assign. Type its name to see it
+
+```{r}
+#| label: assign
+#| echo: true
+
+x <- 7
+x
+```
+
+
+For large objects, use `View()` or click on the object in the environment tab, 
+or `dplyr::glimpse` for a condensed view.
+
+```{r}
+#| label: glimpse
+#| echo: true
+
+dplyr::glimpse(penguins)
+
+```
+
+
+## Functions
+
+Everything that does something is a function
+
+```{r}
+#| label: mean
+#| echo: true
+
+v <- c(1, 5, 7, 2, NA) # NA is a missing value
+mean(v, na.rm = TRUE) # arguments separated by a comma
+```
+
+Also infix functions e.g. `+` and `%in%`
+
+```{r}
+#| label: plus
+#| echo: true
+
+6 * 7
+```
+
+
+## Getting help
+
+`?mean` to get help on the function `mean()`
+
+`??correlation` to get help on the topic correlation
+
+Can also search in the RStudio help tab.
+
+## Packages
+
+You can do a lot with base R, but the real power comes when you use extra packages with extra functions.
+
+Install a package from CRAN with 
+
+```{r}
+#| label: packages-install
+#| eval: false
+#| echo: true
+install.packages("tidyverse") # don't leave this in your code
+```
+
+load a package with `library()`
+
+```{r}
+#| label: packages-load
+#| eval: false
+#| echo: true
+library("tidyverse")
+```
+
+Now tidyverse functions are available.
+
+Many packages are on CRAN, some are on BioConductor or only available to install from GitHub
+
+## Tidyverse vs Base R
+
+You can do everything in base R.
+
+Many things are easier in `tidyverse` - a collection of packages with consistent function
+
+- `dplyr` & `tidyr` for manipulating data frames
+- `ggplot2` for beautiful figures
+- `purrr` for running code repeatedly
+- `lubridate` for manipulating dates
+
+And many more
+
+
+
+
 ## Resourses
 
 [Enough R to write a thesis](https://biostats-r.github.io/biostats/)
