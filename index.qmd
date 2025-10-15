@@ -1,0 +1,15 @@
+---
+title: "Seminars and Presentations"
+format: html
+author: Richard Telford
+editor: visual
+---
+
+A home for presentations and seminars I've given that don't have another place to live.
+
+## Fakultet for naturvitenskap og teknologi sin læringsdag for ansatte i tekniske stillinger
+
+Wednesday 15^th^ October 2025
+
+- [R and RStudio for beginners](R_RStudio.html)
+- [Using Copilot and Quarto with RStudio](copilot-quarto.html)

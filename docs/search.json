@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "copilot-quarto.html#copilot",
+    "href": "copilot-quarto.html#copilot",
+    "title": "Copilot and Quarto",
+    "section": "CoPilot",
+    "text": "CoPilot\n\nCode completion within RStudio\nWrite a comment, coPilot writes the code\nContext aware - uses the packages you have loaded\n\nCan make coding faster (but code can be bad!)"
+  },
+  {
+    "objectID": "copilot-quarto.html#setting-up-copilot",
+    "href": "copilot-quarto.html#setting-up-copilot",
+    "title": "Copilot and Quarto",
+    "section": "Setting up CoPilot",
+    "text": "Setting up CoPilot\n\nMake a github account on github.com\nSign up for Copilot (free with an an educational license github.com/education)\nIn RStudio, go to Tools -&gt; Global Options -&gt; Copilot -&gt; Enable copilot\nPress tab to accept CoPilot suggestions\nUse ctrl+space to see RStudio autocomplete suggestions"
+  },
+  {
+    "objectID": "copilot-quarto.html#communicate-results-with-quarto",
+    "href": "copilot-quarto.html#communicate-results-with-quarto",
+    "title": "Copilot and Quarto",
+    "section": "Communicate results with quarto",
+    "text": "Communicate results with quarto\n\n\n\n\n\n\n\n\n\n\n\n\n\nPast\n\ntext in Word, code in R\ncopy figures & tables, paste into Word\nfind mistakes - go to step 1.\n\n\nFuture\n\nCode and text interwoven\nReproducible, dynamic documents"
+  },
+  {
+    "objectID": "copilot-quarto.html#quarto-for",
+    "href": "copilot-quarto.html#quarto-for",
+    "title": "Copilot and Quarto",
+    "section": "Quarto for",
+    "text": "Quarto for\nReproducible\n\npresentations\nmanuscripts\nreports\ntheses\nwebsites\nbooks\n\nUsing R, python, Julia or many other languages."
+  },
+  {
+    "objectID": "copilot-quarto.html#demonstration-time",
+    "href": "copilot-quarto.html#demonstration-time",
+    "title": "Copilot and Quarto",
+    "section": "Demonstration time",
+    "text": "Demonstration time\n\nYAML\nFormatting text\nsource and visual editing modes\nCode blocks"
+  },
+  {
+    "objectID": "copilot-quarto.html#resources",
+    "href": "copilot-quarto.html#resources",
+    "title": "Copilot and Quarto",
+    "section": "Resources",
+    "text": "Resources\nEnough markdown to write a thesis\n\n\n\n\nTutorial focuses on scientific documents"
+  },
+  {
     "objectID": "R_RStudio.html#why",
     "href": "R_RStudio.html#why",
     "title": "R and RStudio",
@@ -26,69 +68,6 @@
     "title": "R and RStudio",
     "section": "#1 Top tip for using RStudio",
     "text": "#1 Top tip for using RStudio\nUse RStudio Projects\nFile &gt;&gt; New Project… &gt;&gt; New Directory &gt;&gt; New Project\n\nManages working directory\nWorks with Git\nRemembers what you were doing last time"
-  },
-  {
-    "objectID": "R_RStudio.html#resourses",
-    "href": "R_RStudio.html#resourses",
-    "title": "R and RStudio",
-    "section": "Resourses",
-    "text": "Resourses\nEnough R to write a thesis\n\n\n\n\n\nR books\nInteractive tutorials & apps"
-  },
-  {
-    "objectID": "R_RStudio.html#books",
-    "href": "R_RStudio.html#books",
-    "title": "R and RStudio",
-    "section": "Books",
-    "text": "Books\n\n\nR for Data Science\n\n\n\n\n\n\n\n\n\n\nggplot2: Elegant Graphics for Data Analysis"
-  },
-  {
-    "objectID": "R_RStudio.html#rklubben",
-    "href": "R_RStudio.html#rklubben",
-    "title": "R and RStudio",
-    "section": "Rklubben",
-    "text": "Rklubben\n“The first rule about R club is you talk about R.”\n\nCome and help fix someone else’s R problems\nAnd get help yourself\n\nFridays 1400-1600 in Tunet (4th floor Bio A)"
-  },
-  {
-    "objectID": "copilot-quarto.html#communicate-results-with-quarto",
-    "href": "copilot-quarto.html#communicate-results-with-quarto",
-    "title": "Copilot and Quarto",
-    "section": "Communicate results with quarto",
-    "text": "Communicate results with quarto\n\n\n\n\n\n\n\n\n\n\n\n\n\nPast\n\ntext in Word, code in R\ncopy figures & tables, paste into Word\nfind mistakes - go to step 1.\n\n\nFuture\n\nCode and text interwoven\nReproducible, dynamic documents"
-  },
-  {
-    "objectID": "copilot-quarto.html#quarto-for",
-    "href": "copilot-quarto.html#quarto-for",
-    "title": "Copilot and Quarto",
-    "section": "Quarto for",
-    "text": "Quarto for\nReproducible\n\npresentations\nmanuscripts\nreports\ntheses\nwebsites\nbooks\n\nUsing R, python, Julia or many other languages."
-  },
-  {
-    "objectID": "copilot-quarto.html#resources",
-    "href": "copilot-quarto.html#resources",
-    "title": "Copilot and Quarto",
-    "section": "Resources",
-    "text": "Resources\nEnough markdown to write a thesis\n\n\n\n\nTutorial focuses on scientific documents"
-  },
-  {
-    "objectID": "copilot-quarto.html#copilot",
-    "href": "copilot-quarto.html#copilot",
-    "title": "Copilot and Quarto",
-    "section": "CoPilot",
-    "text": "CoPilot\n\nCode completion within RStudio\nWrite a comment, coPilot writes the code\nContext aware - uses the packages you have loaded\n\nCan make coding faster (but code can be bad!)"
-  },
-  {
-    "objectID": "copilot-quarto.html#setting-up-copilot",
-    "href": "copilot-quarto.html#setting-up-copilot",
-    "title": "Copilot and Quarto",
-    "section": "Setting up CoPilot",
-    "text": "Setting up CoPilot\n\nMake a github account on github.com\nSign up for Copilot (free with an an educational license github.com/education)\nIn RStudio, go to Tools -&gt; Global Options -&gt; Copilot -&gt; Enable copilot\nPress tab to accept CoPilot suggestions\nUse ctrl+space to see RStudio autocomplete suggestions"
-  },
-  {
-    "objectID": "copilot-quarto.html#demonstration-time",
-    "href": "copilot-quarto.html#demonstration-time",
-    "title": "Copilot and Quarto",
-    "section": "Demonstration time",
-    "text": "Demonstration time\n\nYAML\nFormatting text\nsource and visual editing modes\nCode blocks"
   },
   {
     "objectID": "R_RStudio.html#beginning-r",
@@ -124,5 +103,40 @@
     "title": "R and RStudio",
     "section": "Tidyverse vs Base R",
     "text": "Tidyverse vs Base R\nYou can do everything in base R.\nMany things are easier in tidyverse - a collection of packages with consistent function\n\ndplyr & tidyr for manipulating data frames\nggplot2 for beautiful figures\npurrr for running code repeatedly\nlubridate for manipulating dates\n\nAnd many more"
+  },
+  {
+    "objectID": "R_RStudio.html#resourses",
+    "href": "R_RStudio.html#resourses",
+    "title": "R and RStudio",
+    "section": "Resourses",
+    "text": "Resourses\nEnough R to write a thesis\n\n\n\n\n\nR books\nInteractive tutorials & apps"
+  },
+  {
+    "objectID": "R_RStudio.html#books",
+    "href": "R_RStudio.html#books",
+    "title": "R and RStudio",
+    "section": "Books",
+    "text": "Books\n\n\nR for Data Science\n\n\n\n\n\n\n\n\n\n\nggplot2: Elegant Graphics for Data Analysis"
+  },
+  {
+    "objectID": "R_RStudio.html#rklubben",
+    "href": "R_RStudio.html#rklubben",
+    "title": "R and RStudio",
+    "section": "Rklubben",
+    "text": "Rklubben\n“The first rule about R club is you talk about R.”\n\nCome and help fix someone else’s R problems\nAnd get help yourself\n\nFridays 1400-1600 in Tunet (4th floor Bio A)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seminars and Presentations",
+    "section": "",
+    "text": "A home for presentations and seminars I’ve given that don’t have another place to live."
+  },
+  {
+    "objectID": "index.html#fakultet-for-naturvitenskap-og-teknologi-sin-læringsdag-for-ansatte-i-tekniske-stillinger",
+    "href": "index.html#fakultet-for-naturvitenskap-og-teknologi-sin-læringsdag-for-ansatte-i-tekniske-stillinger",
+    "title": "Seminars and Presentations",
+    "section": "Fakultet for naturvitenskap og teknologi sin læringsdag for ansatte i tekniske stillinger",
+    "text": "Fakultet for naturvitenskap og teknologi sin læringsdag for ansatte i tekniske stillinger\nWednesday 15th October 2025\n\nR and RStudio for beginners\nUsing Copilot and Quarto with RStudio"
   }
 ]
